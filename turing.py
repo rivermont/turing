@@ -8,16 +8,17 @@ class Tape:
 
     Arguments:
         start_length: Starting length of the tape. Places will be filled with random digits.
-
-    Possible future extensions:
-
     """
     def __init__(self, start_length=1):
         self.start_length = start_length
 
-    def travel_left(self):
+    def add_left(self):
         # Add a random number to the 'left' of the tape.
         # Increment all location variables
+        pass
+
+    def add_right(self):
+        # Append a random number to the tape.
         pass
 
 
@@ -34,5 +35,14 @@ class Machine:
 
 
 class Card:
-    def __init__(self):
+    """
+    A set of instructions that dictate what a Machine does given its state and the number on the Tape.
+
+    Arguments:
+        number_of_states:
+
+    Todo:
+        Needs to generate
+    """
+    def __init__(self, number_of_states=2,):
         pass
