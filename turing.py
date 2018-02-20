@@ -44,5 +44,11 @@ class Card:
     Todo:
         Needs to generate
     """
-    def __init__(self, number_of_states=2,):
+    def __init__(self, number_of_states=2):
         pass
+
+
+def generate_instruction(num_states):
+    """Generates a single random instruction."""
+    result = "{0}{1}{2}".format()
+    return None
